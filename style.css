@@ -7,8 +7,13 @@ h1{
     color: navy;
 }
 h2{
-    font-size: 20px;
+    font-size: 40px;
     color: navy;
+}
+h3{
+    font-size: 30px;
+    color:white;
+    font-weight: 700;
 }
 p{
     color: dimgray;
@@ -21,6 +26,7 @@ p{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    line-height: 20px;
 }
 .half-width1{
     width: 25%;
@@ -28,17 +34,21 @@ p{
     margin-left: 5%;
     padding-left: 2%;
 }
+.half-width2{
+    width: 20%;
+    float: left;
+    margin-left: 20%;
+    padding-left: 2%;
+    
+   
+}
 .half-width img{
     width: 100%;
-}
-.top-banner{
-    
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
 }
 section{
     height: 500px;
     padding-bottom: 150px;
+    
 }
 .link-button{
     text-decoration: none;
@@ -49,44 +59,58 @@ section{
     font-weight: 700;
    
 }
+
 .button {
     background-image: cyan;
     border-radius: 6px;
     display: inline-block;
     padding: 10px 20px;
     text-align: left;
-    max-width: 300px;
     text-decoration: none;
   }
-.Dream-Area{
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.single-experience{
+  .button1{
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px 30px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+
+.single-project{
     
     border-radius: 10px;
     height: 60%;
     background-color: white;
 }
-.Experiance-Area{
+.Projects{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 }
-#full-stack{
+.inquiry{
+    background-image: url("images/Group_33094_1.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:60%;
+    height: 70%;
+    width: 100%;
+    display: block;
+    
+} 
+.website-link{
     border-left: 7px solid;
     border-image:linear-gradient(180deg, lightsalmon, tomato);
     
 }
-#baby-web{
-    border-left: 7px solid;
-    border-image:linear-gradient(180deg, blue, cyan);
    
-}
-footer p{
+   
+footer{
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
+    color:navy;
 }
 
   
@@ -98,11 +122,10 @@ footer p{
     width: 100%;
   }
   
-  .button .text {
-    font-weight: 800;
+  .text {
+    font-weight: 700;
     text-transform: uppercase;
     color: #1d368a;
-    margin: 0 0 15px;
-    font-size: 10px;
+    font-size: 20px;
     text-decoration: none;
   }
